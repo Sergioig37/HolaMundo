@@ -29,11 +29,15 @@ export const MiNombreApp = ({title, subtitle}) => {
   );
 };
 
+//esto permite validar las propiedades enviadas con el
+// propTypes
 MiNombreApp.propTypes = {
     title: PropTypes.number,
     subtitle: PropTypes.string.isRequired
 }
 
+//esto permite establecer el valor de una propiedad por defecto
+//si la propiedad no se envía aparecerá el valor por defecto.
 MiNombreApp.defaultProps = {
     subtitle: "No hay"
 }
