@@ -4,6 +4,9 @@ import ReactDOM from 'react-dom/client';
 import {MiNombreApp} from './MiNombreApp';
 import './estilos.css';
 import { CounterApp } from './CounterApp';
+import { Ejercicio5 } from './Ejercicio5';
+import { VinculaElementos } from './VinculaElementos';
+import { BotonDeshabilita } from './BotonDeshabilita';
 
 
 
@@ -12,6 +15,9 @@ import { CounterApp } from './CounterApp';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
      <CounterApp value={50} />
+     <Ejercicio5></Ejercicio5>
+     <VinculaElementos></VinculaElementos>
+     <BotonDeshabilita></BotonDeshabilita>
     </React.StrictMode>
 );
 // imp atajo para importar
